@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="baseLayout" template="/WEB-INF/view/common/template.jsp">
+		<put-attribute name="title" value="Project"/>
+		<put-attribute name="menu" value="/WEB-INF/view/common/menu.jsp"/>
+		<put-attribute name="body" value=""/>
+	</definition>
+	
+	<definition name="restaurantLayout" template="/WEB-INF/view/restaurant/restaurant.jsp">
+		<put-attribute name="title" value="Project"/>
+		<put-attribute name="menu" value="/WEB-INF/view/common/menu.jsp"/>
+		<put-attribute name="leftSide" value=""/>
+		<put-attribute name="rightSide" value=""/>
+	</definition>
+	
+	<definition name="ownerLayout" template="/WEB-INF/view/owner/owner.jsp">
+		<put-attribute name="title" value="Project"/>
+		<put-attribute name="menu" value="/WEB-INF/view/common/menu.jsp"/>
+		<put-attribute name="ownerNav" value="/WEB-INF/view/owner/ownerNav.jsp"/>
+		<put-attribute name="content" value=""/>
+	</definition>
+	
+	<definition name="home/*" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/view/home/{1}.jsp" />
+	</definition>
+	
+	<definition name="restaurant/*" extends="restaurantLayout">
+		<put-attribute name="leftSide" value="/WEB-INF/view/restaurant/{1}.jsp" />
+		<put-attribute name="rightSide" value="/WEB-INF/view/restaurant/map.jsp" />
+	</definition>
+	
+	<definition name="owner/*" extends="ownerLayout">
+		<put-attribute name="content" value="/WEB-INF/view/owner/{1}.jsp" />
+		<put-attribute name="ownerNav" value="/WEB-INF/view/owner/ownerNav.jsp" />
+	</definition>
+	
+</tiles-definitions>
+
+
+
+
+
+
+
+
+
