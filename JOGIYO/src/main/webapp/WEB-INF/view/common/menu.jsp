@@ -45,7 +45,7 @@
 			<div class="collapse navbar-collapse" id="main-navigation">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="restaurant.do" class="page-scroll">음식점예약</a></li>
-					<li><a href="owner.do" class="page-scroll">사장님페이지</a></li>
+					<li><a href="ownerInfo.do" class="page-scroll">사장님페이지</a></li>
 					<li><a href="owner.do" class="page-scroll">로그인 <i class="fa fa-user"></i></a></li>
 					<!-- <li><a href="#the-menu" class="page-scroll">QnA</a></li>
 					<li><a href="#about" class="page-scroll">서치버튼은 로그인으로 대체예정</a></li>

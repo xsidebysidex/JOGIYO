@@ -52,7 +52,7 @@
   width: 5vw;
   margin-left: -5px;
   color: white;
-  background-color: orange;
+  background-color: #424242;
   cursor: pointer;
 }
 #mapMarker{
@@ -60,7 +60,7 @@
   width: 5vw;
   margin-left: -5px;
   color: white;
-  background-color: orange;
+  background-color: #424242;
   cursor: pointer;
 }
 </style>

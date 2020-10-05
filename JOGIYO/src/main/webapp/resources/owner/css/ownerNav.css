@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.type03 {
+	width: 100%;
+	height:100%;
+	text-align: center;
+    line-height: 1.5;
+  	margin : 20px 10px;
+}
+
+.type03 tr,td {
+	width:100px;
+	height: 80px;
+	border-bottom: 1px solid lightgray;
+	background: white;
+	font-size: 15x;
+}
+
+.type03 td:hover
+,td:focus
+,td:active
+,td.active {
+	color:red;
+	cursor: crosshair;
+}

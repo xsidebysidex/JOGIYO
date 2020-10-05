@@ -31,11 +31,6 @@ public class BaseController {
 		return "restaurant/restaurantInfo";
 	}
 	
-	//사장님페이지 이동
-	@RequestMapping(value = "/owner.do")
-	public String owner() {
-		return "owner/content";
-	}
 	
 }
 
