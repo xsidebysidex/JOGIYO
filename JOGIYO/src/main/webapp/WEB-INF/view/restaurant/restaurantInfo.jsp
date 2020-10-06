@@ -25,7 +25,7 @@
 <link href="resources/restaurant/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="resources/restaurant/css/pe-icons.css" rel="stylesheet">
 
-<link href="resources/restaurant/css/restaurantInfo.css?ver=8" rel="stylesheet">
+<link href="resources/restaurant/css/restaurantInfo.css?ver=11" rel="stylesheet">
 </head>
 <body>
 <div>
@@ -62,17 +62,27 @@
 					  <li class="accordion-item">
 					    <input class="accordion-item-input" type="checkbox" name="accordion" id="item1" checked/>
 					    <label for="item1" class="accordion-item-hd">메인메뉴<span class="accordion-item-hd-cta">&#9650;</span></label>
-					    <div class="accordion-item-bd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex consequuntur architecto maxime, saepe repudiandae quidem quisquam aliquam cumque possimus inventore, deserunt nostrum, explicabo modi voluptatibus sed, labore quaerat. Accusamus, officiis. </div>
+					    <div class="accordion-item-bd">
+					    	<div>
+						    	<div style="width: 49">
+						    		시원한국밥
+						    	</div>
+					    	</div>
+					    </div>
 					  </li>
 					  <li class="accordion-item">
 					    <input class="accordion-item-input" type="checkbox" name="accordion" id="item2" />
 					    <label for="item2" class="accordion-item-hd">세트메뉴<span class="accordion-item-hd-cta">&#9650;</span></label>
-					    <div class="accordion-item-bd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex consequuntur architecto maxime, saepe repudiandae quidem quisquam aliquam cumque possimus inventore, deserunt nostrum, explicabo modi voluptatibus sed, labore quaerat. Accusamus, officiis. </div>
+					    <div class="accordion-item-bd">
+					    
+					    </div>
 					  </li>
 					  <li class="accordion-item">
 					    <input class="accordion-item-input" type="checkbox" name="accordion" id="item3" />
 					    <label for="item3" class="accordion-item-hd">서브메뉴<span class="accordion-item-hd-cta">&#9650;</span></label>
-					    <div class="accordion-item-bd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex consequuntur architecto maxime, saepe repudiandae quidem quisquam aliquam cumque possimus inventore, deserunt nostrum, explicabo modi voluptatibus sed, labore quaerat. Accusamus, officiis. </div>
+					    <div class="accordion-item-bd">
+					    
+					    </div>
 					  </li>
 					</ul>
 				  </div>
@@ -90,7 +100,7 @@
 		<div class="row book">인원수선택</div>
 		<div class="row book">
 			선택한메뉴(이름 수량 가격)
-			<div style="border: 1px solid #eeeeee; padding: 10px; margin-bottom: 5px; border-radius: 5px;">
+			<div class="orderBox">
 				<div>
 					<div style="width: 49%; display: inline-block;">
 						<span style="font-weight: 600; font-size: 16px;">시원한국밥</span> <span style="font-size: 12px; color: gray;">(5,500원)</span>
@@ -110,7 +120,7 @@
 				  </div>
 				</div>
 			</div>
-			<div style="border: 1px solid #eeeeee; padding: 10px; margin-bottom: 5px; border-radius: 5px;">
+			<div class="orderBox">
 				<div>
 					<div style="width: 49%; display: inline-block;">
 						<span style="font-weight: 600; font-size: 16px;">시원한국밥</span> <span style="font-size: 12px; color: gray;">(5,500원)</span>
@@ -130,7 +140,7 @@
 				  </div>
 				</div>
 			</div>
-			<div style="border: 1px solid #eeeeee; padding: 10px; margin-bottom: 5px; border-radius: 5px;">
+			<div class="orderBox">
 				<div>
 					<div style="width: 49%; display: inline-block;">
 						<span style="font-weight: 600; font-size: 16px;">시원한국밥</span> <span style="font-size: 12px; color: gray;">(5,500원)</span>
@@ -154,9 +164,53 @@
 		<div class="row book">할인쿠폰</div>
 		<div class="row book">포인트</div>
 		<div class="row book">결제수단</div>
-		<div class="row book">요청사항</div>
-		<div class="row book">총가격</div>
-		<div class="row book">예약하기</div>
+		<!-- 요청사항 -->
+		<div class="row book">
+			<div class="orderBox">
+				<div>
+					<span>요청사항</span>
+				</div>
+				<textarea rows="" cols="50" style="border: 1px solid #eeeeee; border-radius: 5px;"></textarea>
+			</div>
+		</div>
+		<!-- /요청사항 -->
+		<!-- 총결제금액 -->
+		<div class="row book">
+			<div class="orderBox">
+				<span style="font-size: 16px; font-weight: bold; margin: 5px;">총결제금액</span>
+				<div>
+					<div style="display: inline-block; width: 45% ;margin: 5px;">
+						<span style="color: gray;">총상품금액</span>
+					</div>
+					<div style="display: inline-block; width: 45%; margin: 5px;" align="right">
+						<span style="font-weight: bold;">50,000 원</span>
+					</div>
+					<div style="display: inline-block; width: 45%; margin: 5px;">
+						<span style="color: gray;">할인금액</span>
+					</div>
+					<div style="display: inline-block; width: 45%; margin: 5px;" align="right">
+						<span style="font-weight: bold;">5,000 원</span>
+					</div>
+				</div>
+				<div style="border-bottom: 1px solid #eeeeee;"></div>
+				<div>
+					<div style="display: inline-block; width: 45%; margin: 5px;">
+						<span style="font-weight: bold;">총<span style="color: red;">5</span>건</span>
+					</div>
+					<div style="display: inline-block; width: 45%; margin: 5px;" align="right">
+						<span style="font-weight: bold; color: red; font-size: 24px;">45,000 원</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /총결제금액 -->
+		<!-- 예약하기버튼  -->
+		<div class="row book">
+			<div class="orderBox" style="padding: 15px;">
+				<input type="button" value="예약하기" class="btn btn-danger">
+			</div>
+		</div>
+		<!-- /예약하기버튼  -->
 	</div>
 	        
 </div>

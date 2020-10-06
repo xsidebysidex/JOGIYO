@@ -17,7 +17,6 @@ body{
 	cursor: pointer;
 }
 .book{
-	border-bottom: 1px solid #eeeeee;
 }
 .glyphicon-trash{
 	position: relative;
@@ -26,12 +25,23 @@ body{
 	
 }
 
+.orderBox{
+	border: 1px solid #eeeeee; 
+	padding: 10px; 
+	margin-bottom: 5px; 
+	border-radius: 5px; 
+}
+
+
+
+
+
 .skin-2 .num-in {
 	background: #FFFFFF;
 	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 25px;
 	height: 30px;
-	width: 110px;
+	width: 130px;
 }
 
 .skin-2 .num-in	span {

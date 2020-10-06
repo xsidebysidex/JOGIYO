@@ -26,7 +26,7 @@
 <link href="resources/restaurant/css/pe-icons.css" rel="stylesheet">
 </head>
 <body>
-<div>
+<div class="restaurantListDiv">
 	<div class="col-md-6">
 		<form onsubmit="searchPlaces(); return false;">
 		    <input type="text" value="" id="keyword" size="30"> 
