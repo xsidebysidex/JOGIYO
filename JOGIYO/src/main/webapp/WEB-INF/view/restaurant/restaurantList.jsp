@@ -26,7 +26,7 @@
 <link href="resources/restaurant/css/pe-icons.css" rel="stylesheet">
 </head>
 <body>
-<div class="restaurantListDiv">
+<div>
 	<div class="col-md-6">
 		<form onsubmit="searchPlaces(); return false;">
 		    <input type="text" value="" id="keyword" size="30"> 
@@ -43,7 +43,7 @@
 	<div class="col-md-12 one" style="background: white; margin: 0px; padding: 0; overflow: auto; height: 760px;">
 		<div class="col-md-12 two" style="background: white; margin: 0px; padding: 0; overflow: auto; height: 760px;">
 	        <div class="col-md-6 restInfo" data-value="수암로언양맛집">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (1).png">
@@ -65,7 +65,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="파리바게트울산달동점">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (2).png">
@@ -87,7 +87,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="울산 남구 수암로54번길 11">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (3).png">
@@ -109,7 +109,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="울산 남구 달동 705-2">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (4).png">
@@ -131,7 +131,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="신정동돈꼬식당">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (5).png">
@@ -153,7 +153,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="왕생로전설애국밥">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (6).png">
@@ -175,7 +175,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="엉클박스공업탑">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (7).png">
@@ -197,7 +197,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="엉클박스공업탑">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (7).png">
@@ -219,7 +219,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="엉클박스공업탑">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (7).png">
@@ -241,7 +241,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="엉클박스공업탑">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (7).png">
@@ -263,7 +263,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="엉클박스공업탑">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (7).png">
@@ -285,7 +285,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="엉클박스공업탑">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (7).png">
@@ -307,7 +307,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="엉클박스공업탑">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (7).png">
@@ -329,7 +329,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="엉클박스공업탑">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (7).png">
@@ -351,7 +351,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="엉클박스공업탑">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (7).png">
@@ -373,7 +373,7 @@
 	        	</table>
 	        </div>
 	        <div class="col-md-6 restInfo" data-value="엉클박스공업탑">
-	        	<table>
+	        	<table class="restaurantListTable">
 	        		<tr>
 	        			<td rowspan="3" style="width: 30%;">
 			     			<img alt="" src="resources/restaurant/img/restLogo/sinjung (7).png">
@@ -395,7 +395,7 @@
 	        	</table>
 	        </div>
        		<div class="col-md-6 restInfo" data-value="엉클박스공업탑">
-       			<table>
+       			<table class="restaurantListTable">
        				<tr>
        					<td rowspan="3" style="width: 30%;">
           			<img alt="" src="resources/restaurant/img/restLogo/sinjung (7).png">

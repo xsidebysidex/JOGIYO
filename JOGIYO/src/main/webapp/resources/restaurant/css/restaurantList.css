@@ -7,13 +7,13 @@
 }
 
 
-.restaurantListDiv table {
+.restaurantListTable {
 	width: 100%;
 	border: 1px solid #eeeeee;
 	text-align: left;
 }
 
-.restaurantListDiv table:hover{
+.restaurantListTable:hover{
 	background: rgba(0,0,0,0.025);
 	cursor: pointer;
 }
