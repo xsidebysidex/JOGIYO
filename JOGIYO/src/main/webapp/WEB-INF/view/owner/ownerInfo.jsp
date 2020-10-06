@@ -5,10 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="resources/owner/css/ownerNav.css?ver=8" rel="stylesheet">
+<link href="resources/owner/css/ownerInfo.css?ver=8" rel="stylesheet">
 </head>
 <body>
-<div class="ownerNav">
+<div class="ownerInfo">
 	<table>
 		<tr>
 			<td>111</td>

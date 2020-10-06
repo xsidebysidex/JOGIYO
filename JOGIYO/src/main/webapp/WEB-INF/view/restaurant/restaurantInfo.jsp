@@ -24,23 +24,20 @@
 <!-- Custom Fonts -->
 <link href="resources/restaurant/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="resources/restaurant/css/pe-icons.css" rel="stylesheet">
-<style type="text/css">
-#restInfo{
-	background: white;
-	border-radius: 5px;
-	position: relative;
-	top: -150px;
-	margin: 15%;
-	padding: 10px;
-	box-shadow : 0px 10px 20px #eeeeee;
-}
-</style>
+
+<link href="resources/restaurant/css/restaurantInfo.css?ver=8" rel="stylesheet">
 </head>
 <body>
 <div>
+	<div class="row text-left" style="border-bottom: 1px solid gray;">
+		<span style="font-size: 30px; color: black;" id="backBtn" onclick="history.back()"><i class="fa fa-arrow-left" ></i></span>
+		<div style="display: inline-block; width: 90%;" align="center">
+			<span style="font-size: 20px; font-weight: bold;">예약하기</span>
+		</div>
+	</div>
 	<div class="col-md-6">
-		<div class="col-md-12 one" style="background: white; margin: 0px; padding: 0px; overflow: auto; height: 760px;">
-			<div class="col-md-12 two" style="background: white; margin: 0px; padding: 0px; overflow: auto; height: 760px;">
+		<div class="col-md-12 one" style="background: white; margin: 0px; padding: 0px; overflow: auto; height: 730px;">
+			<div class="col-md-12 two" style="background: white; margin: 0px; padding: 0px; overflow: auto; height: 730px;">
 			<div class="col-md-12 text-center">
 				<div>
 					<img alt="Responsive image" src="resources/restaurant/img/restLogo/sinjung (6).png" width="80%;" class="img-thumbnail">
@@ -89,19 +86,45 @@
 		</div>
 	</div>
 	<div class="col-md-6">
-		전체삭제
-		인원수
-		고른메뉴 개수
-		총가격
-		예약하기
+		<div class="row book">전체삭제</div>
+		<div class="row book">인원수선택</div>
+		<div class="row book">
+			선택한메뉴(이름 수량 가격)
+			<div style="border: 1px solid #eeeeee; padding: 10px; margin-bottom border-radius: 5px;">
+				<div>
+					<div style="width: 49%; display: inline-block;">
+						<span style="font-weight: 600; font-size: 16px;">시원한국밥</span> <span style="font-size: 12px; color: gray;">(5,500원)</span>
+					</div>
+					<div style="width: 28%; display: inline-block;" align="right">
+						<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+					</div>
+				</div>
+				<div style="width: 49%; display: inline-block;">
+					<span style="font-weight: 600;font-size: 16px;">5,500원</span>
+				</div>
+				<div class="num-block skin-2" align="right" style="width: 49%; display: inline-block; vertical-align: bottom;">
+				  <div class="num-in" style="display: inline-block; position: relative; top: 5px;">
+				    <span class="minus dis"></span>
+				    <input type="text" class="in-num" value="1" readonly>
+				    <span class="plus"></span>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<div class="row book">할인쿠폰</div>
+		<div class="row book">포인트</div>
+		<div class="row book">결제수단</div>
+		<div class="row book">요청사항</div>
+		<div class="row book">총가격</div>
+		<div class="row book">예약하기</div>
 	</div>
 	        
 </div>
 
+<script src="resources/restaurant/js/restaurantInfo.js?ver=13"></script>
 <script src="resources/restaurant/js/jquery.js"></script>
 <script src="resources/restaurant/js/bootstrap.min.js"></script>
 <script src="resources/restaurant/js/plugins.js?ver=5"></script>
-<script src="resources/restaurant/js/restaurantInfo.js?ver=9"></script>
 <script>
 		  $(function () {
 		    $('#myTab a:last').tab('show')
