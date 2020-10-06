@@ -90,7 +90,47 @@
 		<div class="row book">인원수선택</div>
 		<div class="row book">
 			선택한메뉴(이름 수량 가격)
-			<div style="border: 1px solid #eeeeee; padding: 10px; margin-bottom border-radius: 5px;">
+			<div style="border: 1px solid #eeeeee; padding: 10px; margin-bottom: 5px; border-radius: 5px;">
+				<div>
+					<div style="width: 49%; display: inline-block;">
+						<span style="font-weight: 600; font-size: 16px;">시원한국밥</span> <span style="font-size: 12px; color: gray;">(5,500원)</span>
+					</div>
+					<div style="width: 28%; display: inline-block;" align="right">
+						<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+					</div>
+				</div>
+				<div style="width: 49%; display: inline-block;">
+					<span style="font-weight: 600;font-size: 16px;">5,500원</span>
+				</div>
+				<div class="num-block skin-2" align="right" style="width: 49%; display: inline-block; vertical-align: bottom;">
+				  <div class="num-in" style="display: inline-block; position: relative; top: 5px;">
+				    <span class="minus dis"></span>
+				    <input type="text" class="in-num" value="1" readonly>
+				    <span class="plus"></span>
+				  </div>
+				</div>
+			</div>
+			<div style="border: 1px solid #eeeeee; padding: 10px; margin-bottom: 5px; border-radius: 5px;">
+				<div>
+					<div style="width: 49%; display: inline-block;">
+						<span style="font-weight: 600; font-size: 16px;">시원한국밥</span> <span style="font-size: 12px; color: gray;">(5,500원)</span>
+					</div>
+					<div style="width: 28%; display: inline-block;" align="right">
+						<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+					</div>
+				</div>
+				<div style="width: 49%; display: inline-block;">
+					<span style="font-weight: 600;font-size: 16px;">5,500원</span>
+				</div>
+				<div class="num-block skin-2" align="right" style="width: 49%; display: inline-block; vertical-align: bottom;">
+				  <div class="num-in" style="display: inline-block; position: relative; top: 5px;">
+				    <span class="minus dis"></span>
+				    <input type="text" class="in-num" value="1" readonly>
+				    <span class="plus"></span>
+				  </div>
+				</div>
+			</div>
+			<div style="border: 1px solid #eeeeee; padding: 10px; margin-bottom: 5px; border-radius: 5px;">
 				<div>
 					<div style="width: 49%; display: inline-block;">
 						<span style="font-weight: 600; font-size: 16px;">시원한국밥</span> <span style="font-size: 12px; color: gray;">(5,500원)</span>
